@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Frontend Mentor | [Challenge Name Here]</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="title">
+                    <h1>Social Media Dashboard</h1>
+                    <p>Total Followers: 23,004</p>
+                </div>
+                <div class="dark-mode">
+                    <p>Dark Mode</p>
+                    <div class="toggle-button">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="media">
+                <article class="card-app facebook">
+                    <div class="username">
+                        <img src="images/icon-facebook.svg" alt="" />
+                        <p>@nathanf</p>
+                    </div>
+                    <div class="stats">
+                        <span class="number-face" data-val="1987"> 0000 </span>
+                    </div>
+                    <p>Followers</p>
+
+                    <div class="current-stats">
+                        <img src="images/icon-up.svg" alt="" />
+                        <p>12 Today</p>
+                    </div>
+                </article>
+
+                <article class="card-app twitter">
+                    <div class="username">
+                        <img src="images/icon-twitter.svg" alt="" />
+                        <p>@nathanf</p>
+                    </div>
+                    <div class="stats">
+                        <span class="number" data-val="1044"> 0000 </span>
+                    </div>
+                    <p>Followers</p>
+
+                    <div class="current-stats">
+                        <img src="images/icon-up.svg" alt="" />
+                        <p>99 Today</p>
+                    </div>
+                </article>
+
+                <article class="card-app instagram">
+                    <div class="username">
+                        <img src="images/icon-instagram.svg" alt="" />
+                        <p>@realnathanf</p>
+                    </div>
+                    <div class="stats">
+                        <span class="number" data-val="11"> 00 </span>
+                        <span>k</span>
+                    </div>
+                    <p>Followers</p>
+
+                    <div class="current-stats">
+                        <img src="images/icon-up.svg" alt="" />
+                        <p>1099 Today</p>
+                    </div>
+                </article>
+
+                <article class="card-app youtube">
+                    <div class="username">
+                        <img src="images/icon-youtube.svg" alt="" />
+                        <p>Nathan F.</p>
+                    </div>
+                    <div class="stats">
+                        <span class="number-yt" data-val="8239"> 0000 </span>
+                    </div>
+                    <p>Subscribers</p>
+
+                    <div class="current-stats">
+                        <img src="images/icon-up.svg" alt="" />
+                        <p>144 Today</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="overview">
+                <h2>Overview - Today</h2>
+
+                <div class="card-stats">
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Page Views</h3>
+                            <img src="images/icon-facebook.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="87"> 00 </span>
+                            <div class="percentage-wrap">
+                              <img src="images/icon-up.svg" alt="">
+                            <p class="percentage-value">3%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Likes</h3>
+                            <img src="images/icon-facebook.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="52"> 00 </span>
+                            <div class="percentage-wrap percentage-red">
+                              <img src="images/icon-down.svg" alt="">
+                            <p class="percentage-value">2%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Likes</h3>
+                            <img src="images/icon-instagram.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="likes" data-val="5462"> 0000 </span>
+                            <div class="percentage-wrap">
+                              <img src="images/icon-up.svg" alt="">
+                            <p class="percentage-value">2257%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Profile Views</h3>
+                            <img src="images/icon-instagram.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                          <div>
+                            <span class="number" data-val="52"> 00 </span>
+                            <span>K</span></div>
+                            <div class="percentage-wrap">
+                              <img src="images/icon-up.svg" alt="">
+                            <p class="percentage-value">1375%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Retweets</h3>
+                            <img src="images/icon-twitter.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="117"> 000 </span>
+                            <div class="percentage-wrap">
+                              <img src="images/icon-up.svg" alt="">
+                            <p class="percentage-value">303%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Likes</h3>
+                            <img src="images/icon-twitter.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="507"> 000 </span>
+                            <div class="percentage-wrap">
+                              <img src="images/icon-up.svg" alt="">
+                            <p class="percentage-value">553%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Likes</h3>
+                            <img src="images/icon-youtube.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="107"> 000 </span>
+                            <div class="percentage-wrap percentage-red">
+                              <img src="images/icon-down.svg" alt="">
+                            <p class="percentage-value">19%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics">
+                        <div class="summary">
+                            <h3>Total Views</h3>
+                            <img src="images/icon-youtube.svg" alt="" />
+                        </div>
+                        <div class="percentage">
+                            <span class="number" data-val="1407"> 0000 </span>
+                            <div class="percentage-wrap percentage-red">
+                              <img src="images/icon-down.svg" alt="">
+                            <p class="percentage-value">12%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+        <script src="script.js"></script>
+    </body>
+</html>
